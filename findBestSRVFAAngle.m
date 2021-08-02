@@ -40,6 +40,14 @@ function [refAng,dynAng] = findBestSRVFAAngle(TR,T1,T2star,T1dovT1,zeta,...
 %     University of Utah
 %     2021
 %
+% Notes:
+%     The implementation of this code requires the following additional
+%     functions:
+%         SRVFA_SimStd
+%             makeSPGRSigs
+%             SRVFAvarT1d
+%             SRVFAvarT1dAll
+%
 % For an original description of the SR-VFA method, see 
 % 
 % Svedin, B. T., Payne, A., & Parker, D. L. (2019). 
